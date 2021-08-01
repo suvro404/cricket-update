@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.NODE_ENV === 'production' ? '/cricket-update-app/' : '/',
+  base: process.env.BASE_URL,
   routes
 })
 
